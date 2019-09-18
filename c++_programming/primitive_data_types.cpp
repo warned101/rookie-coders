@@ -5,7 +5,7 @@
 using namespace std; 
   
 int main() { 
-  char ch[] = "abc"; //Learn more about char at 
+  char ch[] = "ab"; //Learn more about char at 
   cout << "Size of char " << ch << " is "  << sizeof(char) << " byte" << endl; 
 
   int num = 73567; //Learn more about integer at https://www.geeksforgeeks.org/c-data-types/
