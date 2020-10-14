@@ -17,7 +17,7 @@ void arrayPointer()
     int arr[3]={5,2,3};
 
       //arr denotes the address of first element
-    cout<<&arr<<endl<<arr<<endl<<&arr[0]<<endl; //all are same
+    cout<<&arr<<endl<<arr<<endl<<&arr[0]<<endl<<*arr<<endl; //all are same
 
     //We also can use a pointer to the arr;
     //Since arr returns an address so it can store in pointer
@@ -32,7 +32,7 @@ void arrayPointer()
 
     for(int i=0;i<3;i++)
     {
-        cout<<*p<<" ";
+        cout<<*p<<" "; //Now p[i] will also work
         p++;
     }
 
